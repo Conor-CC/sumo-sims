@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on Tue Feb 25 15:13:15 2020 by Eclipse SUMO duarouter Version 1.5.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="/home/conor/Desktop/Desktop/named-data/scenario/sumo-sims/pcd-test/2020-02-25-15-13-14/osm.net.xml"/>
+        <route-files value="/home/conor/Desktop/Desktop/named-data/scenario/sumo-sims/pcd-test/2020-02-25-15-13-14/osm.passenger.trips.xml"/>
+    </input>
+
+    <output>
+        <output-file value="routes.rou.xml"/>
+        <alternatives-output value="routes.rou.alt.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="50.0"/>
+    </time>
+
+    <report>
+        <no-warnings value="true"/>
+        <ignore-errors value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="veh_passenger" vClass="passenger"/>
+    <vehicle id="veh0" type="veh_passenger" depart="0.00" departLane="best" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="59.52" probability="1.00000000" edges="13990491 158744050#0 172271951#0 172271951#1 172271951#2 172271950#1 172271950#2 172271950#3 172271953#0 172271953#1 172271953#2 172271953#3 -172271953#3"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="veh1" type="veh_passenger" depart="42.86" departLane="best">
+        <routeDistribution last="0">
+            <route cost="35.10" probability="1.00000000" edges="172271950#5 172271950#1 172271950#2 172271950#3 172271950#4 172271952#0 172271952#1 172271952#2 158744050#2 13990248"/>
+        </routeDistribution>
+    </vehicle>
+</routes>

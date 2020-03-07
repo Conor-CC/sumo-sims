@@ -1,0 +1,11 @@
+<configuration>
+    <input>
+        <net-file value="pcd-test-1.net.xml"/>
+        <route-files value="pcd-test-1.rou.xml"/>
+        <gui-settings-file value="pcd-test-1.settings.xml"/>
+    </input>
+    <time>
+        <begin value="0"/>
+        <end value="200"/>
+    </time>
+</configuration>

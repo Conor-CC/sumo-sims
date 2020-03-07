@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on Thu 05 Mar 2020 13:45:19 GMT by Eclipse SUMO GUI Version 1.5.0
+-->
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="pcd-test-1.net.xml"/>
+        <route-files value="pcd-test-1.rou.xml"/>
+    </input>
+
+    <time>
+        <begin value="0"/>
+        <end value="400"/>
+    </time>
+
+    <gui_only>
+        <gui-settings-file value="pcd-test-1.settings.xml"/>
+    </gui_only>
+
+</configuration>
